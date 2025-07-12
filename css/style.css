@@ -1,0 +1,55 @@
+body {
+    font-family: "Titillium Web", sans-serif;
+}
+
+.eslogan {
+    color: rgb(16, 16, 158);
+}
+
+.form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #032c73; /* color verde elegante */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #f9f9f9;
+}
+
+.btnGuardar {
+    background-color: rgb(16, 16, 158);
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid rgb(16, 16, 158);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+#tablaDatos {
+    border-collapse: collapse; /* bordes unidos */
+    width: 80%; /* ancho de la tabla */
+    margin: 20px auto; /* centrada con margen superior e inferior */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* sombra suave */
+}
+
+/* Encabezados */
+#tablaDatos th {
+    background-color: #065084; 
+    color: white;
+    padding: 10px; 
+    text-align: center;
+}
+
+/* Celdas */
+#tablaDatos td {
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: center;
+}
+
+#tablaDatos tr:hover {
+    background-color: #f1f1f1;
+}
