@@ -6,17 +6,7 @@ body {
     color: rgb(16, 16, 158);
 }
 
-.form {
-    max-width: 400px;
-    margin: auto;
-    padding: 20px;
-    border: 2px solid #032c73; /* color verde elegante */
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    background-color: #f9f9f9;
-}
-
-.btnGuardar {
+#botonGuardar {
     background-color: rgb(16, 16, 158);
     color: white;
     padding: 10px 20px;
@@ -29,27 +19,100 @@ body {
 }
 
 #tablaDatos {
-    border-collapse: collapse; /* bordes unidos */
-    width: 80%; /* ancho de la tabla */
-    margin: 20px auto; /* centrada con margen superior e inferior */
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* sombra suave */
+    border-collapse: collapse;
+    /* bordes unidos */
+    width: 80%;
+    /* ancho de la tabla */
+    margin: 20px auto;
+    /* centrada con margen superior e inferior */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* sombra suave */
 }
 
 /* Encabezados */
 #tablaDatos th {
-    background-color: #065084; 
+    background-color: #065084;
     color: white;
-    padding: 10px; 
+    padding: 10px;
     text-align: center;
 }
 
 /* Celdas */
 #tablaDatos td {
-    border: 1px solid #ddd; 
-    padding: 8px; 
+    border: 1px solid #ddd;
+    padding: 8px;
     text-align: center;
 }
 
 #tablaDatos tr:hover {
     background-color: #f1f1f1;
+}
+
+.galeria {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9fafb;
+    /* fondo claro */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+}
+
+form label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+}
+
+#productosAgregados {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  border: 1px solid #e5e7eb; /* similar a border-gray-200 */
+}
+
+#productosAgregados h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #1f2937; /* similar a text-gray-800 */
+}
+
+#productosAgregados ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#productosAgregados ul li {
+  padding: 10px;
+  background-color: #f9fafb;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#productosAgregados p {
+  margin-top: 15px;
+  font-weight: 600;
+  text-align: right;
+  color: #374151; /* text-gray-700 */
 }
